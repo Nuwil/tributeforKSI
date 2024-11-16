@@ -23,15 +23,12 @@
     justify-content: center; 
     text-align: center;
     color: var(--home-color);
+    position: relative;
 }
 
 
 .container {
     padding: 15px 25%;
-}
-
-.home-word {
-    margin-top: 40%;
 }
 
 .home-word h1 {
@@ -49,9 +46,9 @@
 footer {
     text-align: center;
     padding: 5px 0; 
-    margin-top: 20%;
-    position: relative; 
+    position: absolute; 
     width: 100%;
+    bottom: 0;
 }
 
 .Ksi-channels ul {
